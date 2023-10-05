@@ -3,6 +3,7 @@
         "nombre": "Jimena",
         "apellido": "Gutiérrez",
         "especialidad":"Ginecología",
+        "id":"1",
         "consultorio":  3,
         "agenda": [
             {
@@ -34,6 +35,36 @@
     {
         "nombre": "Marcela",
         "apellido": "Flores",
-        "especialidad":"Odontología"
+        "especialidad":"Odontología",
+        "id":"2",
+
+        "consultorio":  3,
+        "agenda": [
+            {
+                "fecha": 25,  
+                "dia": "lunes",
+                "turnos":[
+                    {
+                        "horario": 12,
+                        "paciente": "María"
+                    },
+                    {
+                        "horario": 13,
+                        "paciente": "disponible"
+                    },
+                    {
+                        "horario": 14,
+                        "paciente": "disponible"
+                    },
+                    {
+                        "horario": 15,
+                        "paciente": "disponible"    
+                    }                   
+                ]
+                
+            }
+            
+        ] 
     }
+    
 ]
